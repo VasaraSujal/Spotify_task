@@ -28,6 +28,7 @@ body{
     margin-top: -650px;
     height: 600px;
     background-color: rgb(32, 31, 31);
+    width: 1240px;
 }
 .arrows{
     height: 30px;
@@ -47,7 +48,7 @@ body{
     margin-left: 305px;
     width: 1160px;
     height: 200px;
-    column-gap: 45px;
+    column-gap: 53px;
     grid-template-columns: 261px  261px 261px 261px;
 
 }
@@ -73,7 +74,7 @@ body{
     margin-top: 0px;
     margin-left: 304px;
     display: grid;
-    column-gap: 30px;
+    column-gap: 39px;
     grid-template-columns: 165px 165px 165px 165px 165px 165px;
 }
 .child2{
@@ -104,14 +105,15 @@ body{
 }
 .images5{
     height: 66px;
-    margin-left: 306px;
     margin-top: -102px;
+    margin-bottom: 5vh;
+    margin-left: 450px;
 }
 .images6{
     height: 36px;
-    margin-left: 120px;
+    margin-left: 130px;
     margin-top: -92px;
-    margin-bottom: 24px;
+    margin-bottom: 7vh;
 }
 .new{
     margin-left: 18px;
@@ -157,10 +159,28 @@ body{
     color: white;
     margin-left: 120px;
     margin-top: -70px;
+    width: 10vw;
 }
 .new12{
     height: 20px;
     width: 20px; 
     margin-left: 118px;
     margin-top: -10px;
+    position: absolute;
+    display: inline-block;
+    top: 102%;
+    left: 7%;
+}
+.new13{
+    margin-top: -2vh;
+    height: 3vh;
+    width: 99vw;
+    background-color: #1ED760;
+}
+.new14{
+    color: black;
+    text-align: right;
+    font-weight: 600;
+    font-size: 14px;
+    margin-right: 5vw;
 }
